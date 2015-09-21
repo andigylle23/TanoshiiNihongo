@@ -58,11 +58,11 @@ body {
 	background: #d1d1d1;
 }
 .wrap input[type="text"] {
-	border-radius: 7px 7px 0px 0px ;
+	border-radius: 7px 7px 7px 7px ;
 }
 
 .wrap input[type="password"] {
-	border-radius: 0px 0px 7px 7px ;
+	border-radius: 7px 7px 7px 7px  ;
 }
 .forgot_link {
 	color: #83afdf ;
