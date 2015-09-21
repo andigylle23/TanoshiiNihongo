@@ -60,6 +60,7 @@ body {
 .wrap input[type="text"] {
 	border-radius: 7px 7px 0px 0px ;
 }
+
 .wrap input[type="password"] {
 	border-radius: 0px 0px 7px 7px ;
 }
