@@ -4,8 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-  <!-- the application context definition for the springapp DispatcherServlet -->
+  <!-- the application context definition for the tanoshiiNihongo DispatcherServlet -->
 
-  <bean name="/hello.htm" class="springapp.web.HelloController"/>
+  <bean name="/index.html" class="tanoshiiNihongo.web.SampleController"/>
 
 </beans>

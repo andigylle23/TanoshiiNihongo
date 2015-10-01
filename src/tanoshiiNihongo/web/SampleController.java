@@ -21,7 +21,7 @@ public class SampleController implements Controller {
 
         logger.info("Returning hello view");
 
-        return new ModelAndView("sample.jsp");
+        return new ModelAndView("index.html");
     }
 
 }
