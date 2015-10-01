@@ -3,27 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <title>Tanoshii Nihongo</title>
-    
-    
     <link rel="stylesheet" href="resources/css/reset.css">
-
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
-<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
-  </head>
-
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="css/style.css"> 
+</head>
   <body>
-
     
 <!-- Form Mixin-->
 <!-- Pen Title-->
 <div class="pen-title">
-  <h1>楽しい日本語のゲーム</h1></span>
+ <h1>楽しい日本語のゲーム</h1>
 </div>
 <!-- Form Module-->
 <div class="module form-module">
@@ -33,20 +23,20 @@
   <div class="form">
     <h2>LOGIN</h2>
     <p>ID(ユーザーネーム）とパスワードを入かしてください</p>
-    <form>
-      <input type="text" placeholder="ユーザーネーム"/>
-      <input type="password" placeholder="パスワード"/>
-      <button>ログイン</button>
+    <form name="login">
+      <input type="text" name="username" placeholder="ユーザーネーム"/>
+      <input type="password" name="password" placeholder="パスワード"/>
+      <button name="login">ログイン</button>
     </form>
   </div>
   <div class="form">
     <h2>Create an account</h2>
-    <form>
-       <input type="email" placeholder="メールアドレス"/>
-      <input type="text" placeholder="ユーザーネーム"/>
-      <input type="password" placeholder="パスワード"/>
+    <form name="register">
+       <input type="email" name="email" placeholder="メールアドレス"/>
+      <input type="text" name="username" placeholder="ユーザーネーム"/>
+      <input type="password" name="password" placeholder="パスワード"/>
 	  <input type="password" placeholder="もう一度パスワードを入る"/>
-      <button>Register</button>
+      <button name="register">Register</button>
     </form>
   </div>
   <div class="cta"><a href="#">パスワードをお忘れの方</a></div>
